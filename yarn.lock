@@ -29,6 +29,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@cloudflare/workers-types@npm:^4.20230404.0":
+  version: 4.20230518.0
+  resolution: "@cloudflare/workers-types@npm:4.20230518.0"
+  checksum: 69c861437f1064b860b2a52129ed973f670090a8d2de9f4b205f86f8a2f40caec48b8c7614533c6531875d1fa254fc7d9da3ab52d7a6fff46be0f64079b394dc
+  languageName: node
+  linkType: hard
+
 "@colors/colors@npm:1.5.0":
   version: 1.5.0
   resolution: "@colors/colors@npm:1.5.0"
@@ -205,12 +212,12 @@ __metadata:
   linkType: hard
 
 "@iconify/json@npm:^2.2.75":
-  version: 2.2.75
-  resolution: "@iconify/json@npm:2.2.75"
+  version: 2.2.76
+  resolution: "@iconify/json@npm:2.2.76"
   dependencies:
     "@iconify/types": "*"
     pathe: ^1.1.0
-  checksum: 5f89b36f3f12b50afbb15c06c21e33ba6b7c194326c93347625261e5698ed614a955e6a08fa76073be27f5c0c295ceeddba275fa01bcdce508b7b518347a4b50
+  checksum: 2540a0393c1bc268eff77b7c6d24d90bd9cef036b02c28f5a00f9bacb20e5d0f8aab32f11fea31a662b51dfe6e1696456b8097626116f2815e3a58ae1ae7c74c
   languageName: node
   linkType: hard
 
@@ -586,6 +593,19 @@ __metadata:
   peerDependencies:
     "@sveltejs/kit": ^1.0.0
   checksum: 7f74086a140a1f3c5c70f17d60b89572f3df4b7df39d8a10d0db31e00a656cbfdd9b6f9b894232714b4b6f7a7644da7c3cd987621f9d823653a9901bfdf0c475
+  languageName: node
+  linkType: hard
+
+"@sveltejs/adapter-cloudflare@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "@sveltejs/adapter-cloudflare@npm:2.3.0"
+  dependencies:
+    "@cloudflare/workers-types": ^4.20230404.0
+    esbuild: ^0.17.18
+    worktop: 0.8.0-next.15
+  peerDependencies:
+    "@sveltejs/kit": ^1.0.0
+  checksum: 0dddf016b622cbc99535f6ac021ec765008d85803ac85f7fcbc577ef2e3e985d64603f0b2ca67e3301a5a088c7542510a611ddc2fbd523abfb4754d4b60f445d
   languageName: node
   linkType: hard
 
@@ -1023,9 +1043,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001464, caniuse-lite@npm:^1.0.30001489":
-  version: 1.0.30001495
-  resolution: "caniuse-lite@npm:1.0.30001495"
-  checksum: c0a139a2e679ca60ae1ce2aaf0e9f5850cc1016b3735200cc1a1347bd7737f0a2a5993bc3f88f43a13ec687befffdae212a849f782702a6fe488de123e92351e
+  version: 1.0.30001497
+  resolution: "caniuse-lite@npm:1.0.30001497"
+  checksum: 6721120f9a588c442a81cf32f911b4e97a88cb129c27bd2cb0fce6447ad058baa12affa1ee09c517f9e088c7ce74964154d032b6631f66d75dd37c6bc59a67f6
   languageName: node
   linkType: hard
 
@@ -1347,7 +1367,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.17.5":
+"esbuild@npm:^0.17.18":
   version: 0.17.19
   resolution: "esbuild@npm:0.17.19"
   dependencies:
@@ -1922,7 +1942,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.11.0, is-core-module@npm:^2.8.1":
+"is-core-module@npm:^2.12.0, is-core-module@npm:^2.8.1":
   version: 2.12.1
   resolution: "is-core-module@npm:2.12.1"
   dependencies:
@@ -3198,18 +3218,19 @@ __metadata:
     "@iconify/json": ^2.2.75
     "@neoconfetti/svelte": ^1.0.0
     "@sveltejs/adapter-auto": ^2.0.0
+    "@sveltejs/adapter-cloudflare": ^2.3.0
     "@sveltejs/kit": ^1.5.0
     "@types/cookie": ^0.5.1
     autoprefixer: ^10.4.14
     npm: ^9.7.1
     postcss: ^8.4.24
+    postcss-import: ^15.1.0
     svelte: ^3.54.0
     svelte-check: ^3.0.1
     tailwindcss: ^3.3.2
     tslib: ^2.4.1
     typescript: ^5.1.0-beta
     unplugin-icons: ^0.16.3
-    vite: ^4.3.9
   languageName: unknown
   linkType: soft
 
@@ -3292,6 +3313,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"regexparam@npm:^2.0.0":
+  version: 2.0.1
+  resolution: "regexparam@npm:2.0.1"
+  checksum: 797998e96c995c200ebd4a7d5e734381b96d3979b4b6672ec65ed5ca9210b8a5149ad73109ec32115779674b526088704c2564e9fa07f8b747743beadc424803
+  languageName: node
+  linkType: hard
+
 "resolve-from@npm:^4.0.0":
   version: 4.0.0
   resolution: "resolve-from@npm:4.0.0"
@@ -3300,28 +3328,28 @@ __metadata:
   linkType: hard
 
 "resolve@npm:^1.1.7, resolve@npm:^1.22.2":
-  version: 1.22.2
-  resolution: "resolve@npm:1.22.2"
+  version: 1.22.3
+  resolution: "resolve@npm:1.22.3"
   dependencies:
-    is-core-module: ^2.11.0
+    is-core-module: ^2.12.0
     path-parse: ^1.0.7
     supports-preserve-symlinks-flag: ^1.0.0
   bin:
     resolve: bin/resolve
-  checksum: 7e5df75796ebd429445d102d5824482ee7e567f0070b2b45897b29bb4f613dcbc262e0257b8aeedb3089330ccaea0d6a0464df1a77b2992cf331dcda0f4cb549
+  checksum: fb834b81348428cb545ff1b828a72ea28feb5a97c026a1cf40aa1008352c72811ff4d4e71f2035273dc536dcfcae20c13604ba6283c612d70fa0b6e44519c374
   languageName: node
   linkType: hard
 
 "resolve@patch:resolve@^1.1.7#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.2#~builtin<compat/resolve>":
-  version: 1.22.2
-  resolution: "resolve@patch:resolve@npm%3A1.22.2#~builtin<compat/resolve>::version=1.22.2&hash=c3c19d"
+  version: 1.22.3
+  resolution: "resolve@patch:resolve@npm%3A1.22.3#~builtin<compat/resolve>::version=1.22.3&hash=c3c19d"
   dependencies:
-    is-core-module: ^2.11.0
+    is-core-module: ^2.12.0
     path-parse: ^1.0.7
     supports-preserve-symlinks-flag: ^1.0.0
   bin:
     resolve: bin/resolve
-  checksum: 66cc788f13b8398de18eb4abb3aed90435c84bb8935953feafcf7231ba4cd191b2c10b4a87b1e9681afc34fb138c705f91f7330ff90bfa36f457e5584076a2b8
+  checksum: ad59734723b596d0891321c951592ed9015a77ce84907f89c9d9307dd0c06e11a67906a3e628c4cae143d3e44898603478af0ddeb2bba3f229a9373efe342665
   languageName: node
   linkType: hard
 
@@ -3358,20 +3386,6 @@ __metadata:
   bin:
     rimraf: bin.js
   checksum: 87f4164e396f0171b0a3386cc1877a817f572148ee13a7e113b238e48e8a9f2f31d009a92ec38a591ff1567d9662c6b67fd8818a2dbbaed74bc26a87a2a4a9a0
-  languageName: node
-  linkType: hard
-
-"rollup@npm:^3.21.0":
-  version: 3.24.0
-  resolution: "rollup@npm:3.24.0"
-  dependencies:
-    fsevents: ~2.3.2
-  dependenciesMeta:
-    fsevents:
-      optional: true
-  bin:
-    rollup: dist/bin/rollup
-  checksum: 373d0062a79cfce3583d4f6b7ab8ac9aa3201a9af1fa20b24f61a4ddea95a45974c4a8baed3087cb4e7bfc34a9dcd6774b7a635eb071ba52f97f51a59e860d6e
   languageName: node
   linkType: hard
 
@@ -3917,7 +3931,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.0.3":
+"typescript@npm:^5.0.3, typescript@npm:^5.1.0-beta":
   version: 5.1.3
   resolution: "typescript@npm:5.1.3"
   bin:
@@ -3927,33 +3941,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.1.0-beta":
-  version: 5.1.0-beta
-  resolution: "typescript@npm:5.1.0-beta"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: e8ded5a597aaa29bf13e29b971a9954dd85cd4057ec803d793c5704c11b2998c41394be7cd6f4cc9dfd3f94be3cabb72c4f0c567d8cdc315c6df3ae89d2eb809
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@^5.0.3#~builtin<compat/typescript>":
+"typescript@patch:typescript@^5.0.3#~builtin<compat/typescript>, typescript@patch:typescript@^5.1.0-beta#~builtin<compat/typescript>":
   version: 5.1.3
   resolution: "typescript@patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 6f0a9dca6bf4ce9dcaf4e282aade55ef4c56ecb5fb98d0a4a5c0113398815aea66d871b5611e83353e5953a19ed9ef103cf5a76ac0f276d550d1e7cd5344f61e
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@^5.1.0-beta#~builtin<compat/typescript>":
-  version: 5.1.0-beta
-  resolution: "typescript@patch:typescript@npm%3A5.1.0-beta#~builtin<compat/typescript>::version=5.1.0-beta&hash=77c9e2"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 8ef8de14f7e285c0dba5c576774633711cc4d7f1a36c1f82e142821e04384861cb6cee7c93884b2d19b42fe7e568b4af7b6616c56fa4c744c6ce33c4a510edc6
   languageName: node
   linkType: hard
 
@@ -4083,43 +4077,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^4.3.9":
-  version: 4.3.9
-  resolution: "vite@npm:4.3.9"
-  dependencies:
-    esbuild: ^0.17.5
-    fsevents: ~2.3.2
-    postcss: ^8.4.23
-    rollup: ^3.21.0
-  peerDependencies:
-    "@types/node": ">= 14"
-    less: "*"
-    sass: "*"
-    stylus: "*"
-    sugarss: "*"
-    terser: ^5.4.0
-  dependenciesMeta:
-    fsevents:
-      optional: true
-  peerDependenciesMeta:
-    "@types/node":
-      optional: true
-    less:
-      optional: true
-    sass:
-      optional: true
-    stylus:
-      optional: true
-    sugarss:
-      optional: true
-    terser:
-      optional: true
-  bin:
-    vite: bin/vite.js
-  checksum: 8c45a516278d1e0425fac00c0877336790f71484a851a318346a70e0d2aef9f3b9651deb2f9f002c791ceb920eda7d6a3cda753bdefd657321c99f448b02dd25
-  languageName: node
-  linkType: hard
-
 "vitefu@npm:^0.2.4":
   version: 0.2.4
   resolution: "vitefu@npm:0.2.4"
@@ -4190,6 +4147,16 @@ __metadata:
   dependencies:
     string-width: ^1.0.2 || 2 || 3 || 4
   checksum: d5fc37cd561f9daee3c80e03b92ed3e84d80dde3365a8767263d03dacfc8fa06b065ffe1df00d8c2a09f731482fcacae745abfbb478d4af36d0a891fad4834d3
+  languageName: node
+  linkType: hard
+
+"worktop@npm:0.8.0-next.15":
+  version: 0.8.0-next.15
+  resolution: "worktop@npm:0.8.0-next.15"
+  dependencies:
+    mrmime: ^1.0.0
+    regexparam: ^2.0.0
+  checksum: 5caf7664069b5b1511b89b36a46bc2f56269b80da9b7c9d57f3f6ae22745122212dfb30485de46fe5ce7777fd42e87ae76f27f701868902e84d160cf2f673e58
   languageName: node
   linkType: hard
 
