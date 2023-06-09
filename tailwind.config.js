@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        rivals_lobby: "url('../tr.png')",
+        rivals_lobby: "url('tr.png')",
       },
       colors: {
         bg: {

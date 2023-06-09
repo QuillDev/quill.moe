@@ -14,7 +14,6 @@
   import DiscordIcon from "virtual:icons/logos/discord-icon";
   import InstagramIcon from "virtual:icons/bxl/instagram";
   import LinkedinIcon from "virtual:icons/logos/linkedin-icon";
-
 </script>
 
 <body>
