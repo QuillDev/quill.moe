@@ -11,5 +11,9 @@ node_modules
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
+# tools
+.yarn/
 .vscode/
+
+# logs
 *.log
