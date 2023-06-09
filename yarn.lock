@@ -3209,7 +3209,7 @@ __metadata:
     tslib: ^2.4.1
     typescript: ^5.1.0-beta
     unplugin-icons: ^0.16.3
-    vite: ^4.3.0
+    vite: ^4.3.9
   languageName: unknown
   linkType: soft
 
@@ -4083,7 +4083,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^4.3.0":
+"vite@npm:^4.3.9":
   version: 4.3.9
   resolution: "vite@npm:4.3.9"
   dependencies:
