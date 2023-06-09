@@ -14,6 +14,7 @@
   import DiscordIcon from "virtual:icons/logos/discord-icon";
   import InstagramIcon from "virtual:icons/bxl/instagram";
   import LinkedinIcon from "virtual:icons/logos/linkedin-icon";
+  import CalendarIcon from "virtual:icons/bxs/calendar";
 </script>
 
 <body>
@@ -86,8 +87,87 @@
     </div>
 
     <div class="chunk">
-      <div class="text-5xl mb-4">Contact Me</div>
+      <div class="text-5xl text-center mb-4">Work History</div>
+      <ol class="relative border-l border-gray-200 dark:border-gray-700">
+        <li class="mb-10 ml-6">
+          <span
+            class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
+          >
+            <CalendarIcon class=" text-blue-500 text-xs" />
+          </span>
+          <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+            Super League Gaming - Full Stack Software Engineer <span
+              class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3"
+              >Current</span
+            >
+          </h3>
+          <time
+            class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+            >Started in August, 2022</time
+          >
+          <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+            Moved from a contracted game developer position to a full time
+            engineer at Super League Gaming.
+          </p>
+        </li>
+        <li class="mb-10 ml-6">
+          <span
+            class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
+          >
+            <CalendarIcon class=" text-blue-500 text-xs" />
+          </span>
+          <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+            Super League Gaming - Game Developer
+          </h3>
+          <time
+            class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+            >Started in August, 2021</time
+          >
+          <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+            Developed games for the Minehut network as well as Twitch Rivals
+            partnership projects.
+          </p>
+        </li>
+        <li class="mb-10 ml-6">
+          <span
+            class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
+          >
+            <CalendarIcon class=" text-blue-500 text-xs" />
+          </span>
+          <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+            Havoc Games - Java Game Programmer
+          </h3>
+          <time
+            class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+            >Started June 2020</time
+          >
+          <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+            Developed game software & servers for Havoc Games gaming studio.
+          </p>
+        </li>
+        <li class="ml-6">
+          <span
+            class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
+          >
+            <CalendarIcon class=" text-blue-500 text-xs" />
+          </span>
+          <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+            Liquake Development - Java Software Engineer
+          </h3>
+          <time
+            class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+            >Started February 2019</time
+          >
+          <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+            Decompiled and updated old software that was no longer
+            supported/maintianed by the original maintainers.
+          </p>
+        </li>
+      </ol>
+    </div>
 
+    <div class="chunk">
+      <div class="text-5xl mb-4">Contact Me</div>
       <table class="m-auto">
         <a href="https://discord.com/channels/@me/217120695560306691">
           <div class="flex text-3xl">
