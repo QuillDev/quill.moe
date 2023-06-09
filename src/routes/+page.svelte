@@ -63,10 +63,10 @@
               <td class="exp-li"><RustIcon class="fill-white mr-2" />Rust</td>
               <td>2 years</td>
             </tr>
-            <tr>
+            <!-- <tr>
               <td class="exp-li"><SvelteIcon class="mr-2" />Svelte</td>
               <td>1 year</td>
-            </tr>
+            </tr> -->
           </table>
         </div>
       </div>
