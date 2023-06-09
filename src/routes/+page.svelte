@@ -108,7 +108,7 @@
             <p>@quilldev</p>
           </div>
         </a>
-        <a href="www.linkedin.com/in/qdev">
+        <a href="https://www.linkedin.com/in/qdev">
           <div class="flex text-3xl">
             <LinkedinIcon class="mr-2" />
             <p>Robert Brunson</p>
