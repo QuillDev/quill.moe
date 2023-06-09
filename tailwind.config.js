@@ -3,6 +3,9 @@ export default {
   content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
     extend: {
+      backgroundImage: {
+        rivals_lobby: "url('../tr.png')",
+      },
       colors: {
         bg: {
           0: "#0a0a0a",
