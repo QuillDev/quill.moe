@@ -2,6 +2,7 @@
   import HomeIcon from "virtual:icons/bxs/home";
   import GithubIcon from "virtual:icons/bxl/github";
   import TwitterIcon from "virtual:icons/bxl/twitter";
+  import LinkedinIcon from "virtual:icons/bxl/linkedin-square";
 </script>
 
 <div class="nav-main">
@@ -16,6 +17,11 @@
     <div class="nav-item ml-auto">
       <a href="https://github.com/quilldev"> <GithubIcon /></a>
     </div>
+    <!-- Linkedin -->
+    <div class="nav-item ml-auto">
+      <a href="https://www.linkedin.com/in/qdev"><LinkedinIcon /></a>
+    </div>
+
     <!--Twitter Social -->
     <div class="nav-item ml-auto">
       <a href="https://twitter.com/quilldev"><TwitterIcon /></a>

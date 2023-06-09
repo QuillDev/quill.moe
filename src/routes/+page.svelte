@@ -7,13 +7,14 @@
   import SvelteIcon from "virtual:icons/logos/svelte-icon";
   import KubernetesIcon from "virtual:icons/logos/kubernetes";
 
-
   import EmailIcon from "virtual:icons/bxs/envelope-open";
 
   // platforms
   import TwitterIcon from "virtual:icons/logos/twitter";
   import DiscordIcon from "virtual:icons/logos/discord-icon";
   import InstagramIcon from "virtual:icons/bxl/instagram";
+  import LinkedinIcon from "virtual:icons/logos/linkedin-icon";
+
 </script>
 
 <body>
@@ -72,7 +73,8 @@
               <td>2 years</td>
             </tr>
             <tr>
-              <td class="exp-item"><KubernetesIcon class="mr-2" />Kubernetes</td>
+              <td class="exp-item"><KubernetesIcon class="mr-2" />Kubernetes</td
+              >
               <td>2 years</td>
             </tr>
             <tr>
@@ -88,10 +90,17 @@
       <div class="text-5xl mb-4">Contact Me</div>
 
       <table class="m-auto">
-        <a href="mailto:me@quill.moe">
+        <a href="https://discord.com/channels/@me/217120695560306691">
           <div class="flex text-3xl">
-            <EmailIcon class="mr-2" />
-            <div>me@quill.moe</div>
+            <DiscordIcon class="mr-2" />
+            <p>@quilldev</p>
+          </div>
+        </a>
+
+        <a href="https://instagram.com/quilldev">
+          <div class="flex text-3xl">
+            <InstagramIcon class="mr-2 text-white fill-white opacity-100" />
+            <p>@quilldev</p>
           </div>
         </a>
         <a href="https://twitter.com/quilldev">
@@ -100,17 +109,16 @@
             <p>@quilldev</p>
           </div>
         </a>
-
-        <a href="https://discord.com/channels/@me/217120695560306691">
+        <a href="www.linkedin.com/in/qdev">
           <div class="flex text-3xl">
-            <DiscordIcon class="mr-2" />
-            <p>@quilldev</p>
+            <LinkedinIcon class="mr-2" />
+            <p>Robert Brunson</p>
           </div>
         </a>
-        <a href="https://instagram.com/quilldev">
+        <a href="mailto:me@quill.moe">
           <div class="flex text-3xl">
-            <InstagramIcon class="mr-2 text-white fill-white opacity-100" />
-            <p>@quilldev</p>
+            <EmailIcon class="mr-2" />
+            <div>me@quill.moe</div>
           </div>
         </a>
       </table>
