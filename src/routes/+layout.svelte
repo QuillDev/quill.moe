@@ -1,14 +1,13 @@
 <script>
-	import Header from './Header.svelte';
-	import './styles.css';
-	import '../app.css'
+  import "./styles.css";
+  import NavBar from "$lib/components/NavBar.svelte";
 </script>
 
 <div class="app">
-	<main>
-		<slot />
-	</main>
+  <NavBar />
+  <main>
+    <slot />
+  </main>
 
-	<footer>
-	</footer>
+  <footer />
 </div>
